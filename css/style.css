@@ -1,7 +1,7 @@
 .info_panel {
   background-color : #141414;
   padding: 50px;
-  height:800px;
+  height:100%;
   margin: 100px 0px 200px 0px;
 }
 
@@ -13,7 +13,7 @@
 }
 
 .intro_title {
-  padding: 300px;
+  padding: 15%;
 }
 
 .subtitle {
