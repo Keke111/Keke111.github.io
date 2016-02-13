@@ -48,7 +48,7 @@ a:hover {
                 */
 
 .education_panel {
-  background-color: #1C1C1C;;
+  background-color: #1C1C1C;
 }
 
 .education_icon {
@@ -69,4 +69,36 @@ a:hover {
 .btn-linkedin:hover {
   color: #1B85BD;
   text-decoration: none;
+}
+
+.progress-bar {
+  background-color: #707070;
+}
+
+.progress {
+  background-color: #575757;
+  border-radius: 0px;
+}
+
+.skill_text {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.progress-bar_name {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+
+.title {
+  display: inline-block;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
 }
