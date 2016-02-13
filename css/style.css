@@ -1,0 +1,29 @@
+.info_panel {
+  background-color : #141414;
+  padding: 50px;
+  height:800px;
+  margin: 100px 0px 200px 0px;
+}
+
+.footer_panel {
+  background-color : #141414;
+  padding: 50px;
+  height:150px;
+  margin: 50px 0px 0px 0px;
+}
+
+.intro_title {
+  padding: 300px;
+}
+
+.subtitle {
+  color: #C9C9C9
+}
+
+.body {
+  background-image: url("http://i.imgur.com/YNIzTQr.jpg");
+  color:white;
+}
+
+a { color: #C9C9C9; } 
+a:hover { color: inherit; } 
