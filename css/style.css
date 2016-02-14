@@ -71,6 +71,11 @@ a:hover {
   text-decoration: none;
 }
 
+.btn-email:hover {
+  color: white;
+  text-decoration: none;
+}
+
 .progress-bar {
   background-color: #707070;
 }
