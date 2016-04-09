@@ -19,39 +19,28 @@
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
     ga('create', 'UA-73696873-1', 'auto');
     ga('send', 'pageview');
 
   </script>
-
-<header>
-
-  <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
-    <div class="container">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="#home">Keven Imbeault</a>
-      </div>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#about">À propos</a></li>
-        <li><a href="#skills">Compétences</a></li>
-        <li><a href="#education">Études</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-      </ul>
-    </div>
-  </nav>
-</header>
   <body class="body">
 
 
       <!--Acceuil-->
       <section id="home">
-        <div class="info_panel">
-          <div class="text-center intro_title">
-            <h1>Keven Imbeault</h1>
-            <hr class="divider">
-            <h4 class="subtitle">Futur programmeur Javascript Full Stack</h4>
-            <h5 class="subtitle"><strong>Site toujours en dévelopement</strong></h5>
+
+        <div class="acceuil">
+
+          <div class="text-center links">
+            <li><a href="#about" class="marginLeft transition">À propos</a></li>
+            <li><a href="#skills" class="marginLeft transition">Compétences</a></li>
+            <li><a href="#education" class="marginLeft transition">Études</a></li>
+            <li><a href="#portfolio" class="marginLeft transition">Portfolio</a></li>
+          </div>
+
+          <div class="text-center intros">
+            <h1 class="intro_title">Keven Imbeault</h1>
+            <hr class="dividerAcceuil">
 
             <a type="button" class="btn-twitter" href="https://twitter.com/xKeke111x">
               <i class="fa fa-twitter-square fa-4x"></i>
@@ -61,15 +50,13 @@
               <i class="fa fa-github-square fa-4x"></i>
             </a>
 
-            <a type="button" class="btn-linkedin" href="https://www.linkedin.com/in/keven-imbeault-180665111">
+            <a type="button" class="btn-linkedin transition" href="https://www.linkedin.com/in/keven-imbeault-180665111">
               <i class="fa fa-linkedin-square fa-4x"></i>
             </a>
 
-            <p>
-            <a type="button" class="btn-email" href="mailto:xkeke111x@gmail.com">
+            <a type="button" class="btn-email transition" href="mailto:xkeke111x@gmail.com">
               <i class="fa fa-envelope fa-4x"></i>
             </a>
-            </p>
 
 
           </div>
@@ -85,14 +72,18 @@
             <h1>À propos de moi</h1>
             <hr class="divider">
               <div class="container">
-              <div class="row text-center col-md-8 col-md-offset-2">
+              <div class="row text-center col-md-8 col-md-offset-2 textApropos">
                 <p>Je m'appelle Keven Imbeault, &#129; je suis présentement âgé de 17 ans et je suis un étudiant à temps-plein.</p>
+
+                  <hr class="divider">
 
                 <p>
                   J'ai été en contact avec les ordinateurs depuis mon enfance et j'ai rapidement développé une fascination
                   pour eux au début de mon adolescence. J'ai commencé à programmer en apprenant par moi-même via des ressources en ligne telles que
                   <a href="https://www.codecademy.com/">Codecademy</a> ainsi que <a href="http://www.freecodecamp.com">FreeCodeCamp</a>.
                 </p>
+
+                  <hr class="divider">
 
                 <p>
                   Je suis un addict de la cybersécurité et je tiens à apporter la meilleure expérience possible aux utilisateurs de
@@ -162,7 +153,7 @@
                           <div class="col-md-6">
                             <h4>Framework CSS</h4>
 
-                            <img src="https://raw.githubusercontent.com/Keke111/Keke111.github.io/master/img/Logo_Bootstrap.png">
+                            <img src="img\Carousel_Compétences\Logo_Bootstrap.png">
 
                           </div>
 
@@ -209,12 +200,14 @@
                       </ol>
                       <!-- Carousel items -->
                       <div class="carousel-inner">
-                          <div class="active item">
+
+
+                          <div class="active item"> <!-- Item 1-->
                             <div class="row text">
                               <div class="col-md-12">
                                 <img src="img\Carousel_Compétences\Logo_FCC.png" alt="HTML 5, CSS 3, Javascript" />
                                   <h4>FreeCodeCamp</h4>
-                              </div><!--./Front-End -->
+                              </div>
                             </div>
 
                             <div class="row text">
@@ -233,16 +226,13 @@
                                 <p></p>
                               </div>
                             </div>
-
                           </div> <!--./Item 1 -->
 
-                          <div class="item">
+                          <div class="item"> <!-- Item 2 -->
                             <div class="row text">
                             <div class="col-md-6 col-md-offset-3">
                               <img src="img\Carousel_Compétences\Logo_OSS.png" alt="Sass"/>
-                              <a href=" ">
-                                <h4>Open Source Society University</h4>
-                              </a>
+                              <h4>Open Source Society University</h4>
                             </div>
                           </div>
 
@@ -281,116 +271,82 @@
       <!--Portfolio-->
       <section id="portfolio">
         <div class="info_panel">
-          <div class="text-center col-md-12 col-sm-12">
-            <h1 class="title">Portfolio</h1>
+          <div class="container">
+          <div class="text-center">
+            <h1 class="titlePortfolio">Portfolio</h1>
             <hr class="divider">
           </div>
 
-          <!--Grille de projets-->
-          <div class="container">
+          <div class="row text-center rowPortfolio">
 
-            <div class="row col-md-12 col-sm-12"> <!--1ère rangée-->
+          <div class="row text-center rowPortfolio">
+            <div class = "total col-md-6 col-sm-6">
+              <a href = "http://codepen.io/Keke111/pen/YwBxxX">
+                <img src="img\FCC_Tribute.png" class="imgPortfolio">
 
-              <div class="col-md-2 col-sm-6">
-                <a href="http://codepen.io/Keke111/full/YwBxxX"><img class="portfolio_img" src="img/FCC_Tribute.png"></a>
-                <h5>Défi FreeCodeCamp "Page hommage"</h5>
-              </div>
+                <div class = "textPortfolio">
+                  <h2>Défi FreeCodeCamp #1</h2>
+                  <h2>Tribute</h2>
+                  <p>Mon Codepen pour le défi "Build a Tribute Page" de FreeCodeCamp</p>
+                  <p>-</p>
+                  <p>HTML, Bootstrap</p>
+                </div>
 
-              <div class="col-md-1"></div>
+              </a>
+            </div>
 
-              <div class="col-md-2 col-sm-6">
-                <a href="http://kevenimbeault.github.io/EduGroupe/"><img class="portfolio_img" src="img/edugroupe.jpg"></a>
-                <h5>Login Édugroupe (Service de email)
-                </h5>
-              </div>
+            <div class = "total col-md-6 col-sm-6">
+              <a href = "http://kevenimbeault.github.io/EduGroupe/">
+                <img src="img\edugroupe.jpg" class="imgPortfolio">
 
-              <div class="col-md-1"></div>
+                <div class = "textPortfolio">
+                <h2>Login</h2>
+                <p>Un design non-fonctionel d'un écran de connexion</p>
+                <p>-</p>
+                <p>HTML, CSS, Bootstrap</p>
 
-              <div class="col-md-2 col-sm-6">
-                <a href="http://kevenimbeault.github.io/Idle-Project/">
-                  <img class="portfolio_img" src="img\Idle_Project.png">
-                </a>
-                <h5> Jeux coder en javascript  "Zombie Survival"  </h5>
-              </div>
+                </div>
 
-              <div class="col-md-1"></div>
+              </a>
+            </div>
 
-              <div class="col-md-2 col-sm-6">
-                <img src="http://placehold.it/250x150">
-                <h5>À venir</h5>
-              </div>
+            <div class = "total col-md-6 col-sm-6">
+              <a href = "http://kevenimbeault.github.io/Idle-Project/">
+                <img src="img\Idle_Project.png" class="imgPortfolio">
 
-            </div> <!--Fin 1ère rangée-->
+                <div class = "textPortfolio">
+                <h2>Jeux "Zombie Survival"</h2>
+                <p>Un jeux du style "Cookie Clicker" que j'ai créer pour me pratiquer en Javascript</p>
+                <p>-</p>
+                <p>HTML, CSS, Bootstrap, Javascript</p>
+                </div>
 
-            <div class="row col-md-12 col-sm-12"> <!--2e rangée-->
+              </a>
+            </div>
 
-              <div class="col-md-2 col-sm-6">
-                <img src="http://placehold.it/250x150">
-                <h5>À venir</h5>
-              </div>
+            <div class = "total col-md-6 col-sm-6">
+              <a href = "#">
+                <img src="http://placehold.it/450x250" class="imgPortfolio">
 
-              <div class="col-md-1"></div>
+                <div class = "textPortfolio">
+                <h2>À venir</h2>
+                <p>Bientôt</p>
+                <p>-</p>
+                <p>HTML, CSS, Bootstrap, Youtube API, Twitch API</p>
+                </div>
 
-              <div class="col-md-2 col-sm-6">
-                <img src="http://placehold.it/250x150">
-                <h5>À venir</h5>
-              </div>
-
-              <div class="col-md-1"></div>
-
-              <div class="col-md-2 col-sm-6">
-                <img src="http://placehold.it/250x150">
-                <h5>À venir</h5>
-              </div>
-
-              <div class="col-md-1"></div>
-
-              <div class="col-md-2 col-sm-6">
-                <img src="http://placehold.it/250x150">
-                <h5>À venir</h5>
-              </div>
-
-            </div> <!--Fin 2e rangée-->
-
-            <div class="row col-md-12 col-sm-12"> <!--3e rangée-->
-
-              <div class="col-md-2 col-sm-6">
-                <img src="http://placehold.it/250x150">
-                <h5>À venir</h5>
-              </div>
-
-              <div class="col-md-1"></div>
-
-              <div class="col-md-2 col-sm-6">
-                <img src="http://placehold.it/250x150">
-                <h5>À venir</h5>
-              </div>
-
-              <div class="col-md-1"></div>
-
-              <div class="col-md-2 col-sm-6">
-                <img src="http://placehold.it/250x150">
-                <h5>À venir</h5>
-              </div>
-
-              <div class="col-md-1"></div>
-
-              <div class="col-md-2 col-sm-6">
-                <img src="http://placehold.it/250x150">
-                <h5>À venir</h5>
-              </div>
-
-              <div class="col-md-1"></div>
-
-            </div> <!--Fin 3e rangée-->
+              </a>
+            </div>
 
           </div>
+        </div>
+        </div>
       </section> <!--Fin portfolio-->
 
 
         <!--Fin de page (footer)-->
         <div class="footer_panel">
-          <div class="text-center">
+          <div class="text-center footerText">
             Keven Imbeault - 2016
             <hr class="divider">
             <p><p>
