@@ -2,10 +2,10 @@
   box-sizing:border-box;
 
   -webkit-transition: all .2s ease;
--moz-transition: all .2s ease;
--ms-transition: all .2s ease;
--o-transition: all .2s ease;
-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
 
   font-family: Open sans;
 }
@@ -245,6 +245,9 @@ a:hover {
   width: 100%;
 }
 
+/*****************
+ *    CAROUSEL   *
+ *****************/
 .carousel-control.left {
   font-size: 50px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 100%);
