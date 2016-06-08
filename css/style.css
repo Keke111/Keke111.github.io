@@ -10,6 +10,13 @@
   font-family: Open sans;
 }
 
+@media screen and (max-width: 480px) {
+  .carouselText {
+    font-size: 25;
+    color: red;
+  }
+}
+
 .acceuil {
   width: 100%;
   height: 100%;
