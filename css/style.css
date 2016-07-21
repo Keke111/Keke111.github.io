@@ -15,19 +15,14 @@ body {
   background-color: #eeecec;
 }
 
-.navbar {
-  background-color: rgba(244, 239, 239, 0.95);
+a {
+  color: black;
 }
 
-.navbar .navbar-nav {
-  display: inline-block;
-  float: none;
-  vertical-align: top;
+a:hover {
+  text-decoration: none;
 }
 
-.navbar .navbar-collapse {
-  text-align: center;
-}
 
 .acceuil {
   width: 100%;
@@ -54,21 +49,10 @@ body {
 .info_panel {
   width: 100%;
   height: 100%;
-  min-height: 600px;
-  margin: 0px 0 200px 0;
-  padding: 50px;
+  padding: 100px;
   background-color: #eeecec;
+  border:
 }
-
-.info_panel_2 {
-  height: 100%;
-  min-height: 600px;
-  margin: 100px 0 0 0;
-  padding: 50px;
-  background-color: #e6e6e6;
-  box-shadow: 0 10px 5px #393939;
-}
-
 
 .footer_panel {
   height: 150px;
@@ -87,250 +71,67 @@ body {
   font-size: 120px;
 }
 
-.topBar, li {
-  right: 0;
-  display: inline;
-}
-
-.subtitle {
-  margin-top: 0;
-  margin-bottom: 15px;
-  color: #c9c9c9;
-}
-
-.dividerAcceuil {
-  width: 30%;
-}
-
 .divider {
   width: 10%;
   border-color: black;
 }
 
-.textApropos a {
-  color: black;
+.divider_2 {
+  width: 50%;
+  border-color: rgb(194, 194, 194);
 }
 
-a {
-  color: #7e7d7d;
-}
-
-a:hover {
-  text-decoration: none;
-  color: inherit;
-}
 /*
-    EDUCATION
-                */
+    NAVBAR
+            */
 
-.education_panel {
-  background-color: #1c1c1c;
+.navbar {
+  background-color: rgba(233, 233, 233, 0.95);
 }
 
-.education_icon {
-  margin-top: 20px;
-  margin-bottom: 20px;
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
 }
 
-.btn-twitter:hover {
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+/*
+  Couleurs
+            */
+
+.twitter:hover {
   text-decoration: none;
   color: #55acee;
 }
 
-.btn-github:hover {
+.github:hover {
   text-decoration: none;
   color: #800080;
 }
 
-.btn-linkedin:hover {
+.linkedin:hover {
   text-decoration: none;
   color: #1b85bd;
 }
 
-.btn-email:hover {
+.youtube:hover {
   text-decoration: none;
-  color: white;
+  color: #E62117;
 }
 
-.btn-medium:hover {
+.medium:hover {
   text-decoration: none;
   color: #0BE370;
 }
 
-.progress-bar {
-  background-color: #707070;
+.instagram:hover {
+  color: #DC3C78;
 }
 
-.progress {
-  border-radius: 0;
-  background-color: #575757;
-}
-
-.carousel-indicators li {
-  border-color: black;
-}
-
-.carousel-indicators .active {
-  background-color: black;
-}
-
-.carousel-control {
-  color: black;
-}
-
-.skill_text {
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 30px;
-  text-align: center;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-}
-
-.progress-bar_name {
-  margin-bottom: 5px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-}
-
-.titlePortfolio {
-  display: inline-block;
-}
-
-.container {
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.skill_subtitle {
-  letter-spacing: 1px;
-  text-transform: uppercase;
-}
-
-.about-text {
-  max-width: 560px;
-  text-align: center;
-}
-
-.imgPortfolio {
-  width: 400px;
-  height: 250px;
-  border-radius:9px 9px 0px 0px;
-}
-
-.rowPortfolio {
-  max-width: 840px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.total {
-  position: relative;
-  width: 400px;
-  height: 300px;
-  margin-bottom:2%;
-  margin-right: 2%;
-}
-
-.transition {
-
-}
-
-.textPortfolio {
-  -webkit-transition: all .5s ease;
-  -moz-transition: all .5s ease;
-  -ms-transition: all .5s ease;
-  -o-transition: all .5s ease;
-  transition: all .5s ease;
-
-  position: absolute;
-  bottom:0px;
-  background: white ;
-  height: 20%;
-  width: 100%;
-  border-radius: 0px 0px 9px 9px;
-}
-
-.textPortfolio h2 {
-  color: #09AEBD;
-}
-
-.textPortfolio p {
-  opacity: 0;
-}
-
-.textPortfolio:hover p {
-  opacity: 1;
-  color: black;
-}
-
-.textPortfolio:hover {
-  background: rgba(255, 255, 255, .8);
-  height: 100%;
-  width: 100%;
-}
-
-/*****************
- *    CAROUSEL   *
- *****************/
-.carousel-control.left {
-  font-size: 50px;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 100%);
-}
-
-.carousel-control.right {
-  font-size: 50px;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, .000001) 0, rgba(0, 0, 0, 0) 100%);
-}
-
-.carousel-fade .carousel-inner .item {
-  transition-property: opacity;
-}
-
-.carousel-fade .carousel-inner .item,
-.carousel-fade .carousel-inner .active.left,
-.carousel-fade .carousel-inner .active.right {
-  opacity: 0;
-}
-
-.carousel-fade .carousel-inner .active,
-.carousel-fade .carousel-inner .next.left,
-.carousel-fade .carousel-inner .prev.right {
-  opacity: 1;
-}
-
-.carousel-fade .carousel-inner .next, .carousel-fade .carousel-inner .prev,
-.carousel-fade .carousel-inner .active.left,
-.carousel-fade .carousel-inner .active.right {
-  left: 0;
-  transform: translate3d(0, 0, 0);
-}
-
-.carousel-fade .carousel-control {
-  z-index: 2;
-}
-
-.top {
-  font-size: 18px;
-  position: absolute;
-  top: 6px;
-  left: 50%;
-}
-
-.text {
-  padding: 5% 5% 0 5%;
-  text-align: center;
-}
-
-html, body, .carousel, .carousel-inner, .carousel-inner .item {
-  height: 100%;
-}
-
-.paddingTop20 {
-  padding-top: 20px;
-}
-
-.width150 {
-  width: 150px;
-  height: 150px;
+.facebook:hover {
+  color: #3B5998;
 }
