@@ -13,7 +13,31 @@
     <link rel="stylesheet" href="css/responsive.css">
   </head>
 
-  <body class="body">
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="navbar">
+
+        <ul class="nav navbar-nav links">
+          <li><a href="#about" class="marginLeft transition">About me</a></li>
+          <li><a href="#links" class="marginLeft transition">Where to find me</a></li>
+          <li><a href="index.html" class="marginLeft transition">Français</a></li>
+        </ul>
+
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+  <body>
 
 
       <!--Acceuil-->
@@ -21,40 +45,10 @@
 
         <div class="acceuil">
 
-          <div class="text-center links">
-            <li><a href="#about" class="marginLeft transition">About</a></li>
-            <li><a href="#skills" class="marginLeft transition">Skills</a></li>
-            <li><a href="#education" class="marginLeft transition">Education</a></li>
-            <li><a href="#portfolio" class="marginLeft transition">Portfolio</a></li>
-            <li><a href="index.html" class="marginLeft transition">Français</a></li>
-          </div>
-
           <div class="text-center intros">
             <h1 class="intro_title">Keven Imbeault</h1>
-            <hr class="dividerAcceuil">
-
-            <a type="button" class="btn-medium transition" href="https://medium.com/@Keke111">
-              <i class="fa fa-medium fa-4x"></i>
-            </a>
-
-            <a type="button" class="btn-twitter" href="https://twitter.com/xKeke111x">
-              <i class="fa fa-twitter-square fa-4x"></i>
-            </a>
-
-            <a type="button" class="btn-github" href="https://github.com/Keke111">
-              <i class="fa fa-github-square fa-4x"></i>
-            </a>
-
-            <a type="button" class="btn-linkedin transition" href="https://www.linkedin.com/in/keven-imbeault-180665111">
-              <i class="fa fa-linkedin-square fa-4x"></i>
-            </a>
-
-            <a type="button" class="btn-email transition" href="mailto:xkeke111x@gmail.com">
-              <i class="fa fa-envelope fa-4x"></i>
-            </a>
-
-
           </div>
+
         </div>
       </section> <!--Fin Acceuil-->
 
@@ -67,35 +61,29 @@
             <h1>About me</h1>
             <hr class="divider">
               <div class="container">
-              <div class="row text-center col-md-8 col-md-offset-2 col-sm-12 textApropos">
-                <p>My name is Keven Imbeault,  I am currently 17 years old and a full-time high-school student.</p>
-
-                  <hr class="divider">
-
+              <div class="row text-left col-md-8 col-md-offset-2 col-sm-12 textApropos">
                 <p>
-                  I was around computers since i was born and rapidly developed a fascination for them when I was 14.
-                  I started self-learning programming using online ressources such as
-                  <a href="https://www.codecademy.com/">Codecademy</a> and <a href="http://www.freecodecamp.com">FreeCodeCamp</a>.
+                  Hi !
                 </p>
 
-                  <hr class="divider">
-
                 <p>
-                  I am a cybersecurity addict and I make it my mission to bring the best
-                  and most secure experience possible to the users of my websites.
+                  My name is Keven Imbeault (But I am mostly called by my nickname “Keke” by those who know me in real life).
+                  I am a technology (and everything related to it like robotics, cybernetics, augmented reality and the likes) addict.
+                  I am also a future self-taugth full-stack developer.
                 </p>
 
-                <hr class="divider"></hr>
-
                 <p>
-                  <strong>Principal interests</strong> : Video Games, Virtual Reality, Cybersecurity
+                  I publish articles and videos related to my progress and my opinion about recent events or
+                  news about my interests.
                 </p>
 
-                <hr class="divider"></hr>
-
                 <p>
-                  Fluently speaking <strong>french (my native language)</strong> and <strong>english</strong>.
+                  <em>
+                    This website (and its code) is probably not at its final version,
+                    since it will change during my adventure to become a developer.
+                  </em>
                 </p>
+
               </div>
               </div>
 
@@ -104,260 +92,56 @@
         </div>
       </section> <!--Fin À propos-->
 
-      <!--compétences-->
-      <section id="skills">
-        <div class="info_panel">
-          <div class="container">
-          <div class="text-center">
-            <h1>Skills</h1>
-            <hr class="divider">
-          </div>
+      <hr class="divider_2">
 
-
-                <div class="row">
-
-                <!--Texte à gauche-->
-                  <div class="col-sm-12">
-                    <h6 class="skill_text">I decided to become a Full Stack web developer so I can manage all aspects of a website's code
-                      to give a more uniform result and to be able to give a faster and more complete support in case something happens.</h6>
-                  </div> <!--Fin texte à gauche-->
-
-                </div>
-          </div>
-
-          <hr class="divider">
-
-          <div class="container">
-            <div class="row col-md-12 col-sm-12 text-center">
-
-              <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
-                  <ol class="carousel-indicators top">
-                      <li data-target="#carousel" data-slide-to="0" class="active"></li>
-                      <li data-target="#carousel" data-slide-to="1"></li>
-                  </ol>
-                  <!-- Carousel items -->
-                  <div class="carousel-inner">
-                      <div class="active item">
-                        <div class="row text">
-
-                          <div class="col-md-6 paddingTop20">
-                            <h4>Front End</h4>
-
-                            <img src="img\Carousel_Compétences\Logo_web.png" alt="HTML 5, CSS 3, Javascript"/>
-                          </div><!--./Front-End -->
-
-                          <div class="col-md-6">
-                            <h4>Framework CSS</h4>
-
-                            <img src="img\Carousel_Compétences\Logo_Bootstrap.png">
-
-                          </div>
-
-                        </div>
-
-                      </div> <!--./Item 1 -->
-
-                      <div class="item">
-                        <div class="row text">
-                        <div class="col-md-6 col-md-offset-3 paddingTop20 ">
-                          <h4>Preprocessors</h4>
-
-                          <img src="img\Carousel_Compétences\Logo_Sass.png" alt="Sass" />
-                        </div>
-                      </div>
-                      </div><!-- ./Item 2 -->
-                  </div>
-
-                  <!-- Carousel nav -->
-                  <a class="carousel-control left" href="#carousel" data-slide="prev">&lsaquo;</a>
-                  <a class="carousel-control right" href="#carousel" data-slide="next">&rsaquo;</a>
-              </div>
-
-            </div>
-          </div>
-        </div>
-      </section> <!--Fin compétences-->
-
-      <!--Études-->
-      <section id="education">
+      <!-- Liens -->
+      <section id="links">
         <div class="info_panel">
 
           <div class="text-center">
 
-            <h1>Education</h1>
+            <h1>Où me trouver</h1>
             <hr class="divider">
-            <h3>Online ressources</h3>
               <div class="container">
-                <div class="row">
-                  <div id="carousel2" class="carousel slide carousel-fade" data-ride="carousel2">
-                      <ol class="carousel-indicators top">
-                          <li data-target="#carousel2" data-slide-to="0" class="active"></li>
-                          <li data-target="#carousel2" data-slide-to="1"></li>
-                      </ol>
-                      <!-- Carousel items -->
-                      <div class="carousel-inner">
-
-
-                          <div class="active item"> <!-- Item 1-->
-                            <div class="row text">
-                              <div class="col-sm-12">
-                                <img src="img\Carousel_Compétences\Logo_FCC.png" alt="FCC Logo" class="paddingTop20" />
-                                  <h4>FreeCodeCamp (FCC)</h4>
-                              </div>
-                            </div>
-
-                            <div class="row text">
-                              <div class="col-md-4 col-sm-12 carouselText">
-                                <p>HTML5 & CSS</p>
-                                <p>Basic Front End Development Projects</p>
-                                <p>JSON APIs and Ajax</p>
-                              </div>
-
-                              <div class="col-md-4 col-sm-12">
-                                <p>Responsive Design With Bootstrap</p>
-                                <p>Basic Javascript</p>
-                                <p></p>
-                              </div>
-
-                              <div class="col-md-4 col-sm-12">
-                                <p>jQuery</p>
-                                <p>Basic Algorithm Scripting</p>
-                                <p></p>
-                              </div>
-                            </div>
-                          </div> <!--./Item 1 -->
-
-                          <div class="item"> <!-- Item 2 -->
-                            <div class="row text">
-                            <div class="col-md-6 col-md-offset-3">
-                              <img src="img\Carousel_Compétences\Logo_OSS.png" alt="OSS Logo" class="paddingTop20"/>
-                              <h4>Open Source Society University</h4>
-                            </div>
-                          </div>
-
-                          <div class="row text">
-                            <div class="col-md-4">
-                              <p></p>
-                              <p></p>
-                            </div>
-
-                            <div class="col-md-4">
-                              <p></p>
-                              <p></p>
-                            </div>
-
-                            <div class="col-md-4">
-                              <p></p>
-                              <p></p>
-                            </div>
-                          </div>
-                          </div><!-- ./Item 2 -->
-                      </div>
-
-                      <!-- Carousel nav -->
-                      <a class="carousel-control left" href="#carousel2" data-slide="prev">&lsaquo;</a>
-                      <a class="carousel-control right" href="#carousel2" data-slide="next">&rsaquo;</a>
-                  </div>
-                </div>
-
+              <div class="row text-center col-md-8 col-md-offset-2 col-sm-12 textApropos">
+                <a href="https://www.youtube.com/channel/UCXVbJ51rwgpsK53hC_tEm_A" class="youtube"><h1>Youtube</h1></a>
+                <p>
+                  Toutes mes vidéos sont upload ici.
+                </p>
+                <a href="https://medium.com/@Keke111" class="medium"><h1>Medium</h1></a>
+                <p>
+                  Ici il y a mes articles.
+                </p>
+                <a href="https://github.com/KevenImbeault" class="github"><h1>Github</h1></a>
+                <p>
+                  Mes projets Open-Source sont ici.
+                </p>
+                <a href="https://twitter.com/xKeke111x" class="twitter"><h1>Twitter</h1></a>
+                <p>
+                  Le résau social ou je suis le plus actif.
+                </p>
+                <a href="https://www.instagram.com/kevenimbeault/" class="instagram"><h1>Instagram</h1></a>
+                <p>
+                   Ce compte est surtout pour des photos personnel, la programmation n'étant pas vraiment adapté à se média.
+                </p>
+                <a href="https://www.facebook.com/KevenImbeault" class="facebook"><h1>Facebook</h1></a>
+                <p>
+                  Ce compte est moins actif et comporte plus des liens vers des articles que j'aime ou vers mes propres choses,
+                   Twitter servant à poster mes pensés et autres.
+                </p
+              </div>
               </div>
 
           </div>
 
         </div>
-      </section> <!--Fin Études-->
+      </section> <!--Fin Liens-->
 
-      <!--Portfolio-->
-      <section id="portfolio">
-        <div class="info_panel_2">
-          <div class="container">
-          <div class="text-center">
-            <h1 class="titlePortfolio">Portfolio</h1>
-            <hr class="divider">
-          </div>
+      <hr class="divider_2">
 
-          <div class="row text-center rowPortfolio">
-            <div class = "total col-md-6 col-sm-12">
-              <a href = "http://codepen.io/Keke111/pen/YwBxxX">
-                <img src="img\FCC_Tribute.png" class="imgPortfolio">
-
-                <div class = "textPortfolio">
-                  <h2>FCC challenge</h2>
-                  <h2>Tribute</h2>
-                  <p>My Codepen for FreeCodeCamp's "Build a Tribute Page" challenge</p>
-                  <p>-</p>
-                  <p>HTML, Bootstrap</p>
-                </div>
-
-              </a>
-            </div>
-
-            <div class = "total col-md-6 col-sm-12">
-              <a href = "http://kevenimbeault.github.io/EduGroupe/">
-                <img src="img\edugroupe.jpg" class="imgPortfolio">
-
-                <div class = "textPortfolio">
-                <h2>Login</h2>
-                <p>A login screen design</p>
-                <p>-</p>
-                <p>HTML, CSS, Bootstrap</p>
-
-                </div>
-
-              </a>
-            </div>
-
-            <div class = "total col-md-6 col-sm-12">
-              <a href = "http://kevenimbeault.github.io/Idle-Project/">
-                <img src="img\Idle_Project.png" class="imgPortfolio">
-
-                <div class = "textPortfolio">
-                <h2>"Zombie Survival" game</h2>
-                <p>A Cookie Clicker-like game that I'm creating to pratice Vanilla Javascript</p>
-                <p>-</p>
-                <p>HTML, CSS, Bootstrap, Javascript</p>
-                </div>
-
-              </a>
-            </div>
-
-            <div class = "total col-md-6 col-sm-12">
-              <a href = "#">
-                <img src="http://placehold.it/450x250" class="imgPortfolio">
-
-                <div class = "textPortfolio">
-                <h2>Coming</h2>
-                <p>Soon</p>
-                <p>-</p>
-                <p>HTML, CSS, Bootstrap, Youtube API, Twitch API</p>
-                </div>
-
-              </a>
-            </div>
-
-          </div>
-        </div>
-        </div>
-      </section> <!--Fin portfolio-->
-
-
-        <!--Fin de page (footer)-->
-        <div class="footer_panel">
-          <div class="text-center footerText">
-            Copyright © Keven Imbeault 2016 - All rights reserved
-            <hr class="divider">
-            <p><p>
-            • <a href="https://twitter.com/xKeke111x">Twitter</a>
-
-            • <a href="https://github.com/Keke111">GitHub</a>
-
-            • <a href="http://www.freecodecamp.com/keke111">FreeCodeCamp</a>
-
-            • <a href="https://www.linkedin.com/in/keven-imbeault-180665111">LinkedIn</a>
-
-            • <a href="https://medium.com/@Keke111">Medium</a> •
-          </div>
-        </div>
+      <footer class="text-center">
+        ©Keven Imbeault - 2016  Tous droits réservés
+      </footer>
 
     </div>
 </body>
