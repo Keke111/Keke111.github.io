@@ -46,10 +46,22 @@ a:hover {
   border: 1px solid #212020;
 }
 
-.info_panel {
+.marginLeft5px {
+  margin-left: 5px;
+}
+
+.panel {
   width: 100%;
   height: 100%;
   padding: 100px;
+  background-color: #eeecec;
+  border:
+}
+
+.panel2 {
+  width: 100%;
+  height: 100%;
+  padding: 30px;
   background-color: #eeecec;
   border:
 }
@@ -102,6 +114,11 @@ a:hover {
 /*
   Couleurs
             */
+
+.mail:hover {
+  text-decoration: none;
+  color: #ff0800;
+}
 
 .twitter:hover {
   text-decoration: none;
