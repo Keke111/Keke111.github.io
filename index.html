@@ -2,6 +2,7 @@
 <html >
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Keven Imbeault | Portfolio</title>
     <!--Google Font-->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
@@ -9,103 +10,84 @@
     <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
     <!--Custom CSS-->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
   </head>
 
-  <!--Google Analytics-->
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-73696873-1', 'auto');
-    ga('send', 'pageview');
-
-  </script>
-
-  <body class="body">
-
-    <!--Navbar-->
-    <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
-      <div class="container">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#home">Keven Imbeault</a>
-        </div>
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#about">À propos</a></li>
-          <li><a href="#skills">Compétences</a></li>
-          <li><a href="#education">Études</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-        </ul>
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
       </div>
-    </nav>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="navbar">
+
+        <ul class="nav navbar-nav links">
+          <li><a href="#about" class="marginLeft transition">À propos</a></li>
+          <li><a href="#contactInfo" class="marginLeft transition">Pour me contacter</a></li>
+          <li><a href="#links" class="marginLeft transition">Où me trouver</a></li>
+          <li><a href="index_en.html" class="marginLeft transition">English</a></li>
+        </ul>
+
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+  <body>
+
 
       <!--Acceuil-->
       <section id="home">
-        <div class="info_panel">
-          <div class="text-center intro_title">
-            <h1>Keven Imbeault</h1>
-            <hr class="divider">
-            <h4 class="subtitle">Futur programmeur Javascript Full Stack</h4>
-            <h5 class="subtitle"><strong>Site toujours en dévelopement</strong></h5>
 
-            <a type="button" class="btn-twitter" href="https://twitter.com/xKeke111x">
-              <i class="fa fa-twitter-square fa-4x"></i>
-            </a>
+        <div class="acceuil">
 
-            <a type="button" class="btn-github" href="https://github.com/Keke111">
-              <i class="fa fa-github-square fa-4x"></i>
-            </a>
-
-            <a type="button" class="btn-linkedin" href="https://www.linkedin.com/in/keven-imbeault-180665111">
-              <i class="fa fa-linkedin-square fa-4x"></i>
-            </a>
-
-            <p>
-            <a type="button" class="btn-email" href="mailto:xkeke111x@gmail.com">
-              <i class="fa fa-envelope fa-4x"></i>
-            </a>
-            </p>
-
-
+          <div class="text-center intros">
+            <h1 class="intro_title">Keven Imbeault</h1>
           </div>
+
         </div>
       </section> <!--Fin Acceuil-->
 
       <!-- À propos -->
       <section id="about">
-        <div class="info_panel">
+        <div class="panel">
 
           <div class="text-center">
 
             <h1>À propos de moi</h1>
             <hr class="divider">
               <div class="container">
-              <div class="row text-center col-md-8 col-md-offset-2">
-                <p>Je m'appelle Keven Imbeault, &#129; je suis présentement âgé de 17 ans et je suis un étudiant à temps-plein.</p>
-
+              <div class="row text-left col-md-8 col-md-offset-2 col-sm-12 textApropos">
                 <p>
-                  J'ai été en contact avec les ordinateurs depuis mon enfance et j'ai rapidement développé une fascination
-                  pour eux au début de mon adolescence. J'ai commencé à programmer en apprenant par moi-même via des ressources en ligne telles que
-                  <a href="https://www.codecademy.com/">Codecademy</a> ainsi que <a href="http://www.freecodecamp.com">FreeCodeCamp</a>.
+                  Bonjour !
                 </p>
 
                 <p>
-                  Je suis un addict de la cybersécurité et je tiens à apporter la meilleure expérience possible aux utilisateurs de
-                  mes sites sans la compromettre.
+                  Je m’appelle Keven Imbeault (Mais je suis surtout appelé par mon surnom “Keke” par ceux que je courtois).
+                  Je suis un passionné de la technologie (et tous les sujets liés tels que la cybernétique, robotique,
+                  réalité augmenté et bien plus !). Je suis également un futur développeur full-stack apprenant
+                  présentement les technologies et langages de programmation en autodidacte.
                 </p>
-
-                <hr class="divider"></hr>
 
                 <p>
-                  <strong>Intérêts principaux</strong> : Jeux Vidéos, Réalité Virtuelle, Cybersécurité
+                  Je publie des articles et des vidéos en lien avec
+                  mes progrès et mon opinion sur des nouvelles en lien avec mes intérêts.
                 </p>
-
-                <hr class="divider"></hr>
 
                 <p>
-                  Parle couramment le <strong>français</strong> et l'<strong>anglais</strong>.
+                  <em>
+                    Ce site (et donc son code) n’est probablement pas à sa version finale,
+                    étant donné qu’il changera durant mon aventure pour devenir un développeur.
+                  </em>
                 </p>
+
+
+
               </div>
               </div>
 
@@ -114,235 +96,53 @@
         </div>
       </section> <!--Fin À propos-->
 
-      <!--compétences-->
-      <section id="skills">
-        <div class="info_panel">
+      <hr class="divider_2">
 
-          <div class="text-center">
-            <h1>Mes compétences</h1>
+      <!-- Contact -->
+      <section id="contactInfo">
+        <div class="panel2 text-center">
+          <p>
+            <h1>Pour me contacter</h1>
             <hr class="divider">
-          </div>
+          </p>
 
-          <div class="container">
-                <div class="row">
-
-                <!--Texte à gauche-->
-                <div class="col-md-6 col-sm-6 " style="position: relative;">
-                  <div class="col-md-9">
-                    <h6 class="skill_text">J'ai décidé de me spécialiser en dévelopement Full Stack afin de pouvoir gérer tous les aspects d'un site et ainsi, donner un résultat plus uniforme et un support complet en cas de problème.</h6>
-                  </div>
-                </div> <!--Fin texte à gauche-->
-
-                <!--Barres compétences-->
-                <div class="col-md-6 col-sm-6" style="float: right;">
-                  <div class="col-md-9">
-
-                    <div class="progress-bar_name">
-                      <strong>HTML5</strong>
-                    </div>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">En formation</div>
-                    </div>
-
-                    <div class="progress-bar_name">
-                      <strong>CSS3</strong>
-                    </div>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">En formation</div>
-                    </div>
-
-                    <div class="progress-bar_name">
-                      <strong>Javascript</strong>
-                    </div>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">En formation</div>
-                    </div>
-
-                    <div class="progress-bar_name">
-                      <strong>Jquery</strong>
-                    </div>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">En formation</div>
-                    </div>
-
-                  </div>
-                </div> <!--Fin barre compétences-->
-
-                </div>
-          </div>
-
-          <hr class="divider">
-
-          <div class="container">
-            <div class="row col-md-12 col-sm-12 text-center">
-              <h4>Framework CSS</h4>
-
-              <div class="col-md-4 col-sm-4">
-
-              </div>
-
-              <div class="col-md-4 col-sm-4">
-                <img src="https://raw.githubusercontent.com/Keke111/Keke111.github.io/master/img/Logo_Bootstrap.png">
-                <p class="skill_subtitle">Bootstrap</p>
-              </div>
-
-              <div class="col-md-4 col-sm-4">
-
-              </div>
-
-            </div>
-          </div>
+          <p>
+            <a href="https://twitter.com/xKeke111x" class="twitter"><i class="fa fa-twitter fa-4x"></i></a>
+            <a href="mailto:xkeke111x@gmail.com" class="mail marginLeft5px"><i class="fa fa-envelope-o fa-4x"></i></a>
+          </p>
         </div>
-      </section> <!--Fin compétences-->
+      </section> <!-- Fin Contact -->
 
-      <!--Études-->
-      <section id="education">
-        <div class="info_panel">
+      <hr class="divider_2">
+
+      <!-- Liens -->
+      <section id="links">
+        <div class="panel2">
 
           <div class="text-center">
 
-            <h1>Mes études</h1>
+            <h1>Où me trouver</h1>
             <hr class="divider">
               <div class="container">
-              <div class="row">
-              <div class="col-md-2 col-md-offset-5 text-center education_panel">
-                    <i class="fa fa-fire fa-5x education_icon"></i>
-                    <h2>2015 - 2016</h2>
-                    <p><a href="http://www.freecodecamp.com/keke111"><strong>Free Code Camp</strong></a></p>
-                    <hr class="title">
-                    <p>Dévelopement Full Stack</p>
-                    <p><em>En cours</em></p>
-              </div>
+              <div class="row text-center col-md-8 col-md-offset-2 col-sm-12 textApropos">
+                <a href="https://www.youtube.com/channel/UCXVbJ51rwgpsK53hC_tEm_A" class="youtube"><i class="fa fa-youtube-play fa-4x"></i></a>
+                <a href="https://medium.com/@Keke111" class="medium marginLeft5px"><i class="fa fa-medium fa-4x"></i></a>
+                <a href="https://github.com/KevenImbeault" class="github marginLeft5px"><i class="fa fa-github fa-4x"></i></a>
+                <a href="https://twitter.com/xKeke111x" class="twitter marginLeft5px"><i class="fa fa-twitter fa-4x"></i></a>
+                <a href="https://www.instagram.com/kevenimbeault/" class="instagram marginLeft5px"><i class="fa fa-instagram fa-4x"></i></a>
               </div>
               </div>
 
           </div>
 
         </div>
-      </section> <!--Fin Études-->
+      </section> <!--Fin Liens-->
 
-      <!--Portfolio-->
-      <section id="portfolio">
-        <div class="info_panel">
-          <div class="text-center col-md-12 col-sm-12">
-            <h1 class="title">Portfolio</h1>
-            <hr class="divider">
-          </div>
+      <hr class="divider_2">
 
-          <!--Grille de projets-->
-          <div class="container">
-
-            <div class="row col-md-12 col-sm-12"> <!--1ère rangée-->
-
-              <div class="col-md-2 col-sm-6">
-                <a href="http://codepen.io/Keke111/full/YwBxxX"><img src="img/FCC_Tribute.png" width="250" height="150" ></a>
-                <h5>Défi FreeCodeCamp "Page hommage"</h5>
-              </div>
-
-              <div class="col-md-1"></div>
-
-              <div class="col-md-2 col-sm-6">
-                <img src="http://placehold.it/250x150">
-                <h5>À venir</h5>
-              </div>
-
-              <div class="col-md-1"></div>
-
-              <div class="col-md-2 col-sm-6">
-                <img src="http://placehold.it/250x150">
-                <h5>À venir</h5>
-              </div>
-
-              <div class="col-md-1"></div>
-
-              <div class="col-md-2 col-sm-6">
-                <img src="http://placehold.it/250x150">
-                <h5>À venir</h5>
-              </div>
-
-            </div> <!--Fin 1ère rangée-->
-
-            <div class="row col-md-12 col-sm-12"> <!--2e rangée-->
-
-              <div class="col-md-2 col-sm-6">
-                <img src="http://placehold.it/250x150">
-                <h5>À venir</h5>
-              </div>
-
-              <div class="col-md-1"></div>
-
-              <div class="col-md-2 col-sm-6">
-                <img src="http://placehold.it/250x150">
-                <h5>À venir</h5>
-              </div>
-
-              <div class="col-md-1"></div>
-
-              <div class="col-md-2 col-sm-6">
-                <img src="http://placehold.it/250x150">
-                <h5>À venir</h5>
-              </div>
-
-              <div class="col-md-1"></div>
-
-              <div class="col-md-2 col-sm-6">
-                <img src="http://placehold.it/250x150">
-                <h5>À venir</h5>
-              </div>
-
-            </div> <!--Fin 2e rangée-->
-
-            <div class="row col-md-12 col-sm-12"> <!--3e rangée-->
-
-              <div class="col-md-2 col-sm-6">
-                <img src="http://placehold.it/250x150">
-                <h5>À venir</h5>
-              </div>
-
-              <div class="col-md-1"></div>
-
-              <div class="col-md-2 col-sm-6">
-                <img src="http://placehold.it/250x150">
-                <h5>À venir</h5>
-              </div>
-
-              <div class="col-md-1"></div>
-
-              <div class="col-md-2 col-sm-6">
-                <img src="http://placehold.it/250x150">
-                <h5>À venir</h5>
-              </div>
-
-              <div class="col-md-1"></div>
-
-              <div class="col-md-2 col-sm-6">
-                <img src="http://placehold.it/250x150">
-                <h5>À venir</h5>
-              </div>
-
-              <div class="col-md-1"></div>
-
-            </div> <!--Fin 3e rangée-->
-
-          </div>
-      </section> <!--Fin portfolio-->
-
-
-        <!--Fin de page (footer)-->
-        <div class="footer_panel">
-          <div class="text-center">
-            Keven Imbeault - 2016
-            <hr class="divider">
-            <p><p>
-            • <a href="https://twitter.com/xKeke111x">Twitter</a>
-
-            • <a href="https://github.com/Keke111">GitHub</a>
-
-            • <a href="http://www.freecodecamp.com/keke111">FreeCodeCamp</a>
-
-            • <a href="https://www.linkedin.com/in/keven-imbeault-180665111">LinkedIn</a> •
-          </div>
-        </div>
+      <footer class="text-center">
+        ©Keven Imbeault - 2016  Tous droits réservés
+      </footer>
 
     </div>
 </body>
@@ -350,6 +150,23 @@
 <!--Load those things at the end-->
 
    <!--Font Awesome-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
 
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.js'></script>
+
+    <!-- Custom Javascript -->
+    <script src="js\script.js" charset="utf-8"></script>
+
+    <!--Google Analytics-->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-73696873-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
 </html>
