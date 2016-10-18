@@ -27,6 +27,10 @@ footer {
   margin-bottom: 10px;
 }
 
+.coursLogo {
+  max-width: 55%;
+}
+
 
 .acceuil {
   width: 100%;
