@@ -96,12 +96,10 @@ footer {
 .miniature {
   height: 150px;
   width: 350px;
-  margin-top: 10px;
+  border-radius: 2px;
 }
 
-.thumbnail {
-  min-height: 400px;
-}
+
 
 /*
     NAVBAR
