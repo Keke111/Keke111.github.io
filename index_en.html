@@ -151,32 +151,64 @@
 
                 <div class="row"> <!-- Rangée de projets -->
                   <div class="col-md-4 thumbnail">
-                    <img src="img\miniatureEdugroupe.png" alt="Edugroupe login" class="miniature"/> <!-- 1400x600 -->
+                    <a class="btn" data-toggle="modal" data-target="#edugroupeModal ">
+                      <img src="img\miniatureEdugroupe.png" alt="Login Édugroupe" class="miniature"/> <!-- 1400x600 -->
+                    </a>
                     <div class="caption">
                       <h3>Login "Edugroupe"</h3>
-                      <p>A login prototype for a service named "Édugroupe"</p>
-                      <p><a href="https://kevenimbeault.github.io/EduGroupe/" class="btn btn-primary">See</a></p>
                     </div>
                   </div>
 
                   <div class="col-md-4 thumbnail">
-                    <img src="img\miniatureIdleProject.png" alt="Idle Project" class="miniature"/> <!-- 1400x600 -->
+                    <a class="btn" data-toggle="modal" data-target="#idleModal">
+                      <img src="img\miniatureIdleProject.png" alt="Idle Project" class="miniature"/> <!-- 1400x600 -->
+                    </a>
                     <div class="caption">
                       <h3>Idle Project</h3>
-                      <p>A vanilla Javascript game. Currently abandon</p>
-                      <p><a href="https://kevenimbeault.github.io/Idle-Project/" class="btn btn-primary">See</a></p>
                     </div>
                   </div>
 
-                  <div class="col-md-4 thumbnail">
-                    <img src="img/miniatureBlog.png" alt="Blog" class="miniature"/> <!-- 1400x600 -->
+                <div class="col-md-4 thumbnail">
+                      <a class="btn" data-toggle="modal" data-target="#blogModal">
+                        <img src="img\miniatureBlog.png" alt="Blog" class="miniature"/> <!-- 1400x600 -->
+                      </a>
                     <div class="caption">
-                      <h3>Blog</h3>
-                      <p>My personal blog running with Jekyll (Blog post only in French currently)</p>
-                      <p><a href="https://kevenimbeault.github.io/Blog/" class="btn btn-primary">See</a></p>
+                      <h3>Blog [dead]</h3>
                     </div>
-                  </div>
-                </div> <!-- Fin row -->
+                </div>
+
+                </div> <!-- Fin rangée -->
+
+                <div class="row"> <!-- Début rangée 2 -->
+
+                <div class="col-md-4 thumbnail">
+                  <a class="btn" data-toggle="modal" data-target="#rqmModal">
+                    <img src="img\miniatureRqm.png" alt="Blog" class="miniature"/> <!-- 1400x600 -->
+                  </a>
+                <div class="caption">
+                  <h3>FCC- Random Quote Machine</h3>
+                </div>
+                </div>
+
+                <div class="col-md-4 thumbnail">
+                  <a class="btn" data-toggle="modal" data-target="">
+                    <img src="http://placehold.it/1400x600&text=Soon" alt="Blog" class="miniature"/> <!-- 1400x600 -->
+                  </a>
+                <div class="caption">
+                  <h3>Soon.</h3>
+                </div>
+                </div>
+
+                <div class="col-md-4 thumbnail">
+                  <a class="btn" data-toggle="modal" data-target="">
+                    <img src="http://placehold.it/1400x600&text=Soon" alt="Blog" class="miniature"/> <!-- 1400x600 -->
+                  </a>
+                <div class="caption">
+                  <h3>Soon.</h3>
+                </div>
+                </div>
+
+                </div> <!--Fin rangée 2-->
 
               </div> <!-- Fin container -->
 
@@ -223,6 +255,104 @@
 
         </div>
       </section> <!-- Fin Compétences-->
+
+      <!-- Modal Blog-->
+      <div id="blogModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Blog [dead]</h4>
+            </div>
+            <div class="modal-body">
+              <p>My personal blog.</p>
+              <hr class="divider_2">
+              <p>Tech used : HTML, CSS, Jekyll</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Modal Idle Project-->
+      <div id="idleModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Idle Project</h4>
+            </div>
+            <div class="modal-body">
+              <p>A little game created to pratice my javascript knowledge.</p>
+              <p></p>
+              <hr class="divider_2">
+              <p>Tech used : HTML, CSS, Javascript "Vanilla"</p>
+            </div>
+            <div class="modal-footer">
+              <a href="https://kevenimbeault.github.io/Idle-Project/" class="btn btn-primary" target="_blank">See</a>
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Modal Edugroupe-->
+      <div id="edugroupeModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Login "Edugroupe"</h4>
+            </div>
+            <div class="modal-body">
+              <p>A prototype of login screen or a email service used by some schools in Quebec.</p>
+              <p></p>
+              <hr class="divider_2">
+              <p>Tech used : HTML, CSS</p>
+            </div>
+            <div class="modal-footer">
+              <a href="https://kevenimbeault.github.io/EduGroupe/" class="btn btn-primary" target="_blank">See</a>
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Modal Random Quote Machine-->
+      <div id="rqmModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">FCC- Random Quote Machine</h4>
+            </div>
+            <div class="modal-body">
+              <p>A project for the FreeCodeCamp curriculum.</p>
+              <p>Give random quotes that can be published to Twitter.</p>
+              <hr class="divider_2">
+              <p>Tech used : HTML, CSS, javascript, jQuery</p>
+            </div>
+            <div class="modal-footer">
+              <a href="http://codepen.io/Keke111/full/JRBmVP/" class="btn btn-primary" target="_blank">See</a>
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
 
       <hr class="divider_2">
 
