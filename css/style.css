@@ -83,6 +83,10 @@ footer {
   color: #09aebd;
 }
 
+.introPortfolio {
+  padding-top: 0px;;
+}
+
 .intro_title {
   font-size: 120px;
 }
@@ -114,6 +118,11 @@ footer {
 
 .index_links:hover {
   color: #0bd8eb;
+}
+
+.contactText {
+  font-size: 20px;
+  margin-bottom: 20px;
 }
 
 /*
