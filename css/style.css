@@ -83,6 +83,10 @@ footer {
   color: #09aebd;
 }
 
+.introTrouver {
+  padding: 2%;
+}
+
 .introPortfolio {
   padding-top: 0px;;
 }
@@ -149,12 +153,12 @@ footer {
 
 .mail:hover {
   text-decoration: none;
-  color: #ff0800;
+  color: #ea4335;
 }
 
 .twitter:hover {
   text-decoration: none;
-  color: #55acee;
+  color: #1da1f2;
 }
 
 .github:hover {
@@ -164,25 +168,32 @@ footer {
 
 .linkedin:hover {
   text-decoration: none;
-  color: #1b85bd;
+  color: #0077b5;
 }
 
 .youtube:hover {
   text-decoration: none;
-  color: #E62117;
-}
-
-.medium:hover {
-  text-decoration: none;
-  color: #0BE370;
+  color: #cd201f;
 }
 
 .instagram:hover {
-  color: #DC3C78;
+  color: #c13584;
 }
 
 .facebook:hover {
-  color: #3B5998;
+  color: #3b5998;
+}
+
+.tumblr:hover {
+  color: #35465c;
+}
+
+.fcc:hover {
+  color: #006400;
+}
+
+.twitch:hover {
+  color: #6441a5;
 }
 
 .coursTerminer {
