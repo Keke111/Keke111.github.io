@@ -1,0 +1,80 @@
+* {
+  font-family: Open sans;
+}
+
+body {
+  width: 100%;
+  color: white;
+  /* Old browsers */
+  background: #00c1fc;
+  /* FF3.6-15 */
+  background: -moz-linear-gradient(top,  #00c1fc 0%, #007fad 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: -webkit-linear-gradient(top,  #00c1fc 0%,#007fad 100%);
+  /* W3C, IE10+, FF16+, Chrome26[]+, Opera12+, Safari7+ */
+  background: linear-gradient(to bottom,  #00c1fc 0%,#007fad 100%);
+  /* IE6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00c1fc', endColorstr='#007fad',GradientType=0 );
+}
+
+.intro {
+  margin-top: 20%;
+  margin-bottom: 40%;
+
+  font-size: 120px;
+  font-weight: 600;
+}
+
+.sousTitre {
+  padding-top: 2%;
+}
+
+.panel {
+  width: 100%;
+  color: black;
+  font-size: 20px;
+  font-weight:600;
+  border-radius: 0px;
+  background-color: #f0f0f0;
+  margin: 5px 0px 5px 0px;
+}
+
+.texte {
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.footer {
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+.divider {
+  border-color: black;
+  width: 15%;
+}
+
+.navbar {
+  font-size: 20px;
+  font-weight: bold;
+
+  margin: 10px 15px 5px 15px;
+}
+
+.navbar a {
+  color: white;
+  padding-right: 20px;
+}
+
+.navbar a:hover {
+  text-decoration: none;
+}
+
+.en {
+  margin-left: -10px;
+  padding-right: 0px;
+}
+
+.paddingTop2 {
+  padding-top: 2%;
+}
