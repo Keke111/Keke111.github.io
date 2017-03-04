@@ -17,6 +17,10 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00c1fc', endColorstr='#007fad',GradientType=0 );
 }
 
+i:hover {
+  color: black;
+}
+
 .intro {
   margin-top: 20%;
   margin-bottom: 40%;
@@ -78,3 +82,56 @@ body {
 .paddingTop2 {
   padding-top: 2%;
 }
+
+.modal {
+  color: black;
+}
+
+.marginLeft5px {
+  margin-left: 5px;
+  color: black;
+}
+
+/* * * * * * *
+ * L I E N S *
+ * * * * * * */
+
+ .twitter i:hover {
+   color: #1da1f2;
+ }
+
+ .facebook i:hover {
+   color: #3b5998;
+ }
+
+ .instagram i:hover {
+   color: #c13584;
+ }
+
+ .github i:hover {
+   color: #6e5494;
+ }
+
+ .fcc i:hover {
+   color: #006400;
+ }
+
+ .youtube i:hover {
+   color: #cd201f;
+ }
+
+ .tumblr i:hover {
+   color: #35465c;
+ }
+
+ .linkedin i:hover {
+   color: #0077b5;
+ }
+
+ .twitch i:hover {
+   color: #6441a5;
+ }
+
+ .mail i:hover {
+   color: #ea4335;
+ }
