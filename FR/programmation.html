@@ -111,11 +111,11 @@
             </div>
 
             <div class="col-md-4 thumbnail">
-              <a class="btn" data-toggle="modal" data-target="">
+              <a class="btn" data-toggle="modal" data-target="#weatherModal">
                 <img src="http://placehold.it/1400x600&text=À Venir" alt="Blog" class="miniature"/> <!-- 1400x600 -->
               </a>
             <div class="caption">
-              <h3>À venir</h3>
+              <h3>FCC - Show the Local Weather</h3>
             </div>
             </div>
 
@@ -228,6 +228,33 @@
           </div>
           <div class="modal-footer">
             <a href="http://codepen.io/Keke111/full/JRBmVP/" class="btn btn-primary" target="_blank">Voir</a>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!--Modal Show the Local Weather-->
+    <div id="weatherModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">FCC- Show the Local Weather</h4>
+          </div>
+          <div class="modal-body">
+            <p>Un projet fait pour les défis de FreeCodeCamp.</p>
+            <p>Utilise les fonctions de géolocalisation utilisable grâce au HTML5. (Fonctionne seulement si le site utilise "HTTPS".)</p>
+            <p>Créer ensuite un lien avec les coordonnées obtenue pour trouver la météo grâce à l'API Dark Sky.</p>
+            <p>Possède un bouton pour changer la météo de fahrenheit vers celsius et inversement.</p>
+            <hr class="divider_2">
+            <p>Technologies utilisés : HTML, CSS, javascript, jQuery</p>
+          </div>
+          <div class="modal-footer">
+            <a href="https://codepen.io/KevenImbeault/full/oWQegP/" class="btn btn-primary" target="_blank">Voir</a>
             <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
           </div>
         </div>
