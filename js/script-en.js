@@ -9,6 +9,9 @@ $("#darkmode").click(function(){
       $(".panel").css("background-color", "#161616");
       $("i").css("color", "white");
       $("#darkmode").html("Light mode");
+      //Test
+      $("#twitter").removeClass("twitter");
+      $("#twitter").addClass("twitter");
   } else if($("#darkmode").html() === "Light mode") {
       $(".panel").css("color", "black");
       $(".panel").css("background-color", "white");
