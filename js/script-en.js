@@ -13,6 +13,7 @@ $("#darkmode").click(function(){
       $(".panel").css("color", "black");
       $(".panel").css("background-color", "white");
       $("body").css("background", "-webkit-linear-gradient(top,  #00c1fc 0%,#007fad 100%)");
+      $("i").css("color", "black");
       $("#darkmode").html("Dark mode");
   }
 });
