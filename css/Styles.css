@@ -105,6 +105,10 @@ i:hover {
  * L I E N S *
  * * * * * * */
 
+i {
+ color: black; 
+}
+
  .twitter i:hover {
    color: #1da1f2;
  }
