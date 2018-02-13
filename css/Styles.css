@@ -1,150 +1,49 @@
-* {
-  font-family: Open sans;
+.acceuil {
+  background-color: #54CAD6;
+  min-height: 942px;
 }
 
-body {
-  width: 100%;
-  color: white;
-  /* Old browsers */
-  background: #00c1fc;
-  /* FF3.6-15 */
-  background: -moz-linear-gradient(top,  #00c1fc 0%, #007fad 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: -webkit-linear-gradient(top,  #00c1fc 0%,#007fad 100%);
-  /* W3C, IE10+, FF16+, Chrome26[]+, Opera12+, Safari7+ */
-  background: linear-gradient(to bottom,  #00c1fc 0%,#007fad 100%);
-  /* IE6-9 */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00c1fc', endColorstr='#007fad',GradientType=0 );
+.a_propos {
+  background-color: #f7f7f7;
+  min-height: 942px;
 }
 
-.right {
-    text-align: right;
-    float: right;
+.a_propos p{
+  font-size: 25px;
 }
 
-i:hover {
-  color: black;
+.a_propos_texte {
+  border-right: 2px solid;
+  padding-right: 40px;
+  margin-top: -300px;
+  padding-top: 200px;
+  margin-bottom: -50px;
 }
 
-.intro {
-  margin-top: 20%;
-  margin-bottom: 40%;
-
-  font-size: 120px;
-  font-weight: 600;
-}
-
-.sousTitre {
-  padding-top: 2%;
-}
-
-.panel {
-  width: 100%;
-  color: black;
-  font-size: 20px;
-  font-weight:600;
-  border-radius: 0px;
-  background-color: white;
-  margin: 5px 0px 5px 0px;
-}
-
-.texte {
-  margin-left: 4%;
-  margin-right: 4%;
-}
-
-.footer {
-  margin-top: 20px;
-  font-size: 15px;
-}
-
-.divider {
-  border-color: black;
-  width: 15%;
-}
-
-.navbar {
-  font-size: 20px;
+.soustitre {
   font-weight: bold;
-
-  margin: 10px 15px 5px 15px;
 }
 
-.navbar a {
+.intérêts_texte {
+  padding-left: 40px;
+  margin-top: -300px;
+  padding-top: 90px;
+}
+
+.acceuil a {
+  padding-right: 60px;
   color: white;
-  padding-right: 20px;
 }
 
-.navbar a:hover {
-  text-decoration: none;
+.titre {
+  font-size: 200px;
+  color: white;
+  padding-top: 10%;
 }
 
-.en {
-  margin-left: -10px;
-  padding-right: 0px;
+.ligne {
+  border-bottom: 10px solid white;
+  max-width: 75%;
+  margin-left: 12.5%;
+  margin-top: -2%;
 }
-
-.cours {
-  background-color: ;
-}
-
-.modal {
-  color: black;
-}
-
-.paddingTop2 {
-  padding-top: 2%;
-}
-
-.marginLeft5px {
-  margin-left: 5px;
-  color: black;
-}
-
-/* * * * * * *
- * L I E N S *
- * * * * * * */
-
-i {
- color: black; 
-}
-
- .twitter i:hover {
-   color: #1da1f2;
- }
-
- .facebook i:hover {
-   color: #3b5998;
- }
-
- .instagram i:hover {
-   color: #c13584;
- }
-
- .github i:hover {
-   color: #6e5494;
- }
-
- .fcc i:hover {
-   color: #006400;
- }
-
- .youtube i:hover {
-   color: #cd201f;
- }
-
- .tumblr i:hover {
-   color: #35465c;
- }
-
- .linkedin i:hover {
-   color: #0077b5;
- }
-
- .twitch i:hover {
-   color: #6441a5;
- }
-
- .mail i:hover {
-   color: #ea4335;
- }
