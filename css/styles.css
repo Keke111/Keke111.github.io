@@ -27,21 +27,12 @@
 .a_propos {
   background-color: #e7e6e7;
   height: 50vh;
-  padding-top:10px;
-  padding-bottom:10px;
-}
-
-.a_propos p{
-  font-size: 25px;
-
+  padding: 15vh;
 }
 
 .a_propos_texte {
-  border-right: 2px solid;
-  padding-right: 40px;
-  margin-top: -300px;
-  padding-top: 200px;
-  margin-bottom: -50px;
+  font-size: 12pt;
+  text-align: justify;
 }
 
 .soustitre {
