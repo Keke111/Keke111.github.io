@@ -9,12 +9,15 @@
 }
 
 .a_propos {
-  background-color: #f7f7f7;
-  min-height: 942px;
+  background-color: #e7e6e7;
+  height: 50vh;
+  padding-top:10px;
+  padding-bottom:10px;
 }
 
 .a_propos p{
   font-size: 25px;
+
 }
 
 .a_propos_texte {
@@ -51,4 +54,20 @@
   max-width: 75%;
   margin-left: 12.5%;
   margin-top: -2%;
+}
+
+.arrow {
+  animation: slide 1s ease-in-out infinite;
+  color: white;
+}
+
+@keyframes slide {
+  0%,
+  100% {
+    transform: translate(0,0);
+  }
+
+  50% {
+    transform: translate(0, 10px);
+  }
 }
